@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.homepage         = 'https://github.com/phongcoiydbg99/ffmpeg-kit'
     s.license          = { 
       :type => 'LGPL-3.0', 
-      :file => 'ffmpeg-kit-ios-min/ffmpegkit.xcframework/ios-arm64/ffmpegkit.framework/LICENSE'  # 确保LICENSE文件存在于此路径
+      :file => 'ffmpeg-kit-ios-min/ffmpegkit.xcframework/LICENSE'  # 确保LICENSE文件存在于此路径
     }
     s.author           = { 'phongcoiydbg99' => 'phongcoiydbg99@gmail.com' }
   
