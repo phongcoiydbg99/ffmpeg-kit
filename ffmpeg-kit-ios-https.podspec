@@ -13,18 +13,16 @@ Pod::Spec.new do |s|
     }
     s.author           = { 'phongcoiydbg99' => 'phongcoiydbg99@gmail.com' }
   
-    # 平台配置
     s.platform         = :ios
     s.ios.deployment_target = '12.1' 
     s.requires_arc     = true
+    s.module_name = 'FFmpegKit'
   
-    # 源码配置
     s.source           = { 
       :git => 'https://github.com/phongcoiydbg99/ffmpeg-kit.git', 
       :tag => s.version.to_s 
     }
   
-    # 框架配置
     s.vendored_frameworks = [
       'ffmpeg-kit-ios-min/ffmpegkit.xcframework',
       'ffmpeg-kit-ios-min/libavcodec.xcframework',
