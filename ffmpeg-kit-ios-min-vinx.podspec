@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
     }
   
     s.vendored_frameworks = [
-      'fmpegkit.xcframework',
+      'ffmpegkit.xcframework',
       'libavcodec.xcframework',
       'libavdevice.xcframework',
       'libavfilter.xcframework',
