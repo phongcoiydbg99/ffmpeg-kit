@@ -24,13 +24,13 @@ Pod::Spec.new do |s|
     }
   
     s.vendored_frameworks = [
-      'ffmpeg-kit-ios-min/ffmpegkit.xcframework',
-      'ffmpeg-kit-ios-min/libavcodec.xcframework',
-      'ffmpeg-kit-ios-min/libavdevice.xcframework',
-      'ffmpeg-kit-ios-min/libavfilter.xcframework',
-      'ffmpeg-kit-ios-min/libavformat.xcframework',
-      'ffmpeg-kit-ios-min/libavutil.xcframework',
-      'ffmpeg-kit-ios-min/libswresample.xcframework',
-      'ffmpeg-kit-ios-min/libswscale.xcframework',
+      'fmpegkit.xcframework',
+      'libavcodec.xcframework',
+      'libavdevice.xcframework',
+      'libavfilter.xcframework',
+      'libavformat.xcframework',
+      'libavutil.xcframework',
+      'libswresample.xcframework',
+      'libswscale.xcframework',
     ]
   end
