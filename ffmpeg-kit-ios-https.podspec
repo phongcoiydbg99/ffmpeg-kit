@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name             = 'ffmpeg-kit-ios-min'
+    s.name             = 'ffmpeg-kit-ios-min-vinx'
     s.version          = '6.0.0' 
     s.summary          = 'Minimal FFmpegKit build for iOS'
     s.description      = <<-DESC
