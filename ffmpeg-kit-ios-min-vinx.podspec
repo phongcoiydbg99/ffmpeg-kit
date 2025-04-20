@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'ffmpeg-kit-ios-min-vinx'
-    s.version          = '6.0.2' 
+    s.version          = '6.0.3' 
     s.summary          = 'Minimal FFmpegKit build for iOS'
     s.description      = <<-DESC
                           Custom minimal build of FFmpegKit for iOS arm64 architecture.
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.homepage         = 'https://github.com/phongcoiydbg99/ffmpeg-kit'
     s.license          = { 
       :type => 'LGPL-3.0', 
-      :file => 'ffmpegkit.xcframework/LICENSE'  
+      :file => 'ffmpegkit.xcframework/ios-arm64/ffmpegkit.framework/LICENSE'  
     }
     s.author           = { 'phongcoiydbg99' => 'phongcoiydbg99@gmail.com' }
   
@@ -22,6 +22,9 @@ Pod::Spec.new do |s|
       :tag => s.version.to_s 
     }
   
+    s.frameworks = 'AudioToolbox', 'AVFoundation', 'CoreMedia', 'VideoToolbox'
+    s.libraries = 'z', 'bz2', 'c++', 'iconv'
+
     s.vendored_frameworks = [
       'ffmpegkit.xcframework',
       'libavcodec.xcframework',
