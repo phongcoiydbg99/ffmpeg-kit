@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name             = 'ffmpeg-kit-ios-min'
+    s.name             = 'ffmpeg-kit-ios-min-vinx'
     s.version          = '6.0.0' 
     s.summary          = 'Minimal FFmpegKit build for iOS'
     s.description      = <<-DESC
@@ -9,14 +9,13 @@ Pod::Spec.new do |s|
     s.homepage         = 'https://github.com/phongcoiydbg99/ffmpeg-kit'
     s.license          = { 
       :type => 'LGPL-3.0', 
-      :file => 'ffmpeg-kit-ios-min/ffmpegkit.xcframework/LICENSE'  
+      :file => 'ffmpegkit.xcframework/LICENSE'  
     }
     s.author           = { 'phongcoiydbg99' => 'phongcoiydbg99@gmail.com' }
   
     s.platform         = :ios
     s.ios.deployment_target = '12.1' 
     s.requires_arc     = true
-    s.module_name = 'FFmpegKit'
   
     s.source           = { 
       :git => 'https://github.com/phongcoiydbg99/ffmpeg-kit.git', 
